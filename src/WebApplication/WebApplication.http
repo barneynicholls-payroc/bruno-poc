@@ -4,3 +4,5 @@ GET {{WebApplication_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{WebApplication_HostAddress}}/greet?name=from-http-file
