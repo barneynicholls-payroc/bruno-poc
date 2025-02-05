@@ -1,0 +1,15 @@
+meta {
+  name: Greet Me
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/greet?name=main-branch
+  body: none
+  auth: none
+}
+
+params:query {
+  name: main-branch
+}
